@@ -1,0 +1,4 @@
+
+```shell
+vendor\bin\phpunit
+```
