@@ -58,8 +58,8 @@ class PipelineQueryTest extends TestCase
         $this->assertCount($posts->count(), $result);
     }
 
-    public function createFaker()
+    public function createFaker($amount = 5)
     {
-        factory(Post::class, 5)->create();
+        factory(Post::class, $amount)->create();
     }
 }

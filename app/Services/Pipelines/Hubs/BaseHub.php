@@ -4,7 +4,7 @@ namespace App\Services\Pipeline\Hub;
 
 use Illuminate\Pipeline\Hub;
 
-abstract class CoreHub extends Hub
+abstract class BaseHub extends Hub
 {
     /**
      * Send an object through one of the available pipelines.

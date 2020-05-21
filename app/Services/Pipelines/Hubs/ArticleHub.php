@@ -5,7 +5,7 @@ namespace App\Services\Pipeline\Hub;
 use App\Services\Pipeline\Hub\Pipes\RemoveACharacter;
 use App\Services\Pipeline\Hub\Pipes\RemoveOCharacter;
 
-class ArticleHub extends CoreHub
+class ArticleHub extends BaseHub
 {
     /**
      * Registers the Body Pipeline

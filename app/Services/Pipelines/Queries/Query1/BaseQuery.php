@@ -8,8 +8,7 @@ abstract class BaseQuery
 
     public function handle($query, \Closure $next, ...$args)
     {
-        $args = $this->filter($args);
-        $query = $this->query($query, $args);
+        $query = $this->query($query, $this->filter($args));
         return $next($query);
     }
 
