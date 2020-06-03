@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use App\Services\Pipeline\Hub\ArticleHub;
+use App\Services\Pipelines\Hub\ArticleHub;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 

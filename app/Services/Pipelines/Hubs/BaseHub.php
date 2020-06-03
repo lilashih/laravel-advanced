@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Pipeline\Hub;
+namespace App\Services\Pipelines\Hub;
 
 use Illuminate\Pipeline\Hub;
 

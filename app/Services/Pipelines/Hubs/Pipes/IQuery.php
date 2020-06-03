@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Pipeline\Hub\Pipes;
+namespace App\Services\Pipelines\Hub\Pipes;
 
 interface IQuery
 {

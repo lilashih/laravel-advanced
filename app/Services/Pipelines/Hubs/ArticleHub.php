@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Services\Pipeline\Hub;
+namespace App\Services\Pipelines\Hub;
 
-use App\Services\Pipeline\Hub\Pipes\RemoveACharacter;
-use App\Services\Pipeline\Hub\Pipes\RemoveOCharacter;
+use App\Services\Pipelines\Hub\Pipes\RemoveACharacter;
+use App\Services\Pipelines\Hub\Pipes\RemoveOCharacter;
 
 class ArticleHub extends BaseHub
 {
